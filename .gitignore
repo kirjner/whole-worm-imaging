@@ -10,8 +10,9 @@ __pycache__/
 # Shell scripts
 *.sh
 
-# Data Folder
+# Data Folder (or symlink)
 *data/
+*data
 
 # Testing
 /coverage
