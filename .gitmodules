@@ -1,0 +1,12 @@
+[submodule "BrainAlignNet"]
+	path = BrainAlignNet
+	url = https://github.com/flavell-lab/BrainAlignNet.git
+[submodule "targettrack"]
+	path = targettrack
+	url = https://github.com/rahi-lab/targettrack.git
+[submodule "euler_gpu"]
+	path = euler_gpu
+	url = git@github.com:flavell-lab/euler_gpu.git
+[submodule "DeepReg"]
+	path = DeepReg
+	url = https://github.com/flavell-lab/DeepReg.git
