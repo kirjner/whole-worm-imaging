@@ -10,3 +10,6 @@
 [submodule "DeepReg"]
 	path = DeepReg
 	url = https://github.com/flavell-lab/DeepReg.git
+[submodule "NWBelegans"]
+	path = NWBelegans
+	url = https://github.com/focolab/NWBelegans.git
