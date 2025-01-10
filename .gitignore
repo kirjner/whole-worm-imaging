@@ -13,7 +13,7 @@ __pycache__/
 # Data Folder (or symlink)
 *data/
 *data
-
+*data_scratch/
 # Testing
 /coverage
 .pytest_cache/
