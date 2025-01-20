@@ -4,22 +4,16 @@ This repository contains tools and scripts for processing whole-worm imaging dat
 
 ## Data Location
 
-The primary dataset is located on OpenMind at:
+The primary dataset is located on Engaging at:
 
 ```
-/nese/mit/group/boydenlab/Konstantinos
+/orcd/data/edboyden/002/Konstantinos/whole-worm-imaging
 ```
 
 Within this directory, the `worm_data` folder contains subfolders:
 
 - `nd2`: Raw data from the Nikon microscope.
 - `h5`: Converted `.h5` files.
-
-The path to Konstantinos' data is:
-
-```
-/orcd/data/edboyden/001/Konstantinos/whole-worm-imaging/worm_data
-```
 
 ## Environment Setup
 
@@ -71,7 +65,7 @@ To convert `.nd2` files to `.nwb` format, additional scripts or tools may be req
 To create a symbolic link to the data directory within the repository, run:
 
 ```bash
-ln -s /orcd/data/edboyden/001/Konstantinos/whole-worm-imaging/worm_data ~/whole-worm-imaging/data
+ln -s /orcd/data/edboyden/002/Konstantinos/whole-worm-imaging/worm_data ~/whole-worm-imaging/data
 ```
 
 ## Additional Resources
