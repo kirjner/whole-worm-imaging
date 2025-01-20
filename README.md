@@ -15,6 +15,11 @@ Within this directory, the `worm_data` folder contains subfolders:
 - `nd2`: Raw data from the Nikon microscope.
 - `h5`: Converted `.h5` files.
 
+For assistance with the `nd2_to_h5.py` script, refer to its source code:
+
+- [nd2_to_h5.py](https://github.com/kirjner/whole-worm-imaging/blob/main/nd2_to_h5.py)
+
+
 ## Environment Setup
 
 To set up the environment for processing the data, follow these steps:
@@ -72,6 +77,4 @@ ln -s /orcd/data/edboyden/002/Konstantinos/whole-worm-imaging/worm_data ~/whole-
 
 For more information and updates, visit the [whole-worm-imaging repository](https://github.com/kirjner/whole-worm-imaging).
 
-For assistance with the `nd2_to_h5.py` script, refer to its source code:
 
-- [nd2_to_h5.py](https://github.com/kirjner/whole-worm-imaging/blob/main/nd2_to_h5.py)
