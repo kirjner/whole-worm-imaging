@@ -38,11 +38,21 @@ To set up the environment for processing the data, follow these steps:
 
 3. **Activate the `worm-env` Environment**:
 
+   First the environment with:
+  
+   ```bash
+   mamba env create -f worm-env.yml
+   ```
+
+   Then activate it with:
+   
    ```bash
    mamba activate worm-env
    ```
 
-4. **Start Jupyter Lab**:
+
+
+5. **Start Jupyter Lab**:
 
    ```bash
    jupyter-lab --ip 0.0.0.0 --no-browser --port 8889
@@ -50,7 +60,7 @@ To set up the environment for processing the data, follow these steps:
 
    Copy the link provided by Jupyter Lab into VSCode or your preferred editor to connect.
 
-5. **Install NWBElegans Package**:
+6. **Install NWBElegans Package**:
 
    Ensure that the `worm-env` environment is active, then run:
 
